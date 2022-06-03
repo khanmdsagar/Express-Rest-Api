@@ -4,7 +4,8 @@
   "description": "Accounting Software for all\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[s",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
   },
   "keywords": [
     "accounting"
@@ -16,10 +17,12 @@
     "cors": "^2.8.5",
     "dotenv": "^14.2.0",
     "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^6.1.0",
     "helmet": "^5.0.1",
     "hpp": "^0.2.3",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16",
+    "xss-clean": "^0.1.1"
   }
 }
